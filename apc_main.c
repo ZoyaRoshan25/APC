@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
             break;
 
         case '-':
-            //subtraction(head1, tail1, head2, tail2,&headR, &tailR);
+            subtraction(head1, tail1, head2, tail2,&headR, &tailR);
             break;
 
         case '*':
