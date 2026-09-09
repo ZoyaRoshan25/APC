@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 
     if(argv[2][0] != '+' &&
    argv[2][0] != '-' &&
-   argv[2][0] != '*' &&
+   argv[2][0] != 'x' &&
    argv[2][0] != '/')
     {
         printf("Invalid operator\n");
@@ -51,8 +51,8 @@ int main(int argc, char *argv[])
             subtraction(head1, tail1, head2, tail2,&headR, &tailR);
             break;
 
-        case '*':
-            //multiplication(tail1, tail2, &headR, &tailR);
+        case 'x':
+            multiplication(tail1, tail2, &headR, &tailR);
             break;
 
         case '/':

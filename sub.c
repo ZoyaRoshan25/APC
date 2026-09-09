@@ -8,7 +8,7 @@ int compare_lists(list *head1, list *head2)
     list *temp1 = head1;
     list *temp2 = head2;
 
-    /* Count digits */
+    //Count digits /
     while (temp1 != NULL)
     {
         count1++;
