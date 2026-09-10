@@ -1,3 +1,7 @@
+/*NAME : ZOYA ROSHAN DESAI
+PROJECT NAME : Arbitrary Precision Calculator
+DESCRIPTION: Developed a C-based calculator using doubly linked lists to perform addition, subtraction, multiplication, and division on large integers.*/
+
 #include <stdio.h>
 #include "apc_main.h"
 #include <stdlib.h>
