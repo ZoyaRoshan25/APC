@@ -1,10 +1,10 @@
 #include "apc_main.h"
 
-int addition(list **tail1, list **tail2, list **headR, list **tailR)
+int addition(list *tail1, list *tail2, list **headR, list **tailR)
 {
     int sum, carry = 0;
-    list *temp1 = *tail1;
-    list *temp2 = *tail2;
+    list *temp1 = tail1;
+    list *temp2 = tail2;
 
     while(temp1 != NULL || temp2 != NULL || carry != 0)
     {

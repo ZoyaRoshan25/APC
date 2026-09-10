@@ -1,7 +1,6 @@
 #include "apc_main.h"
 
-int multiplication(list *tail1, list *tail2,
-                   list **headR, list **tailR)
+int multiplication(list *tail1, list *tail2, list **headR, list **tailR)
 {
     list *temp1;
     list *temp2;
@@ -18,10 +17,6 @@ int multiplication(list *tail1, list *tail2,
         return SUCCESS;
     }
 
-    /*
-       Start with result = 0
-       This list will store the final answer.
-    */
     insert_at_first(headR, tailR, 0);
 
     temp2 = tail2;

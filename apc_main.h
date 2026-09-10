@@ -19,12 +19,15 @@ typedef struct node
 void insert_at_last(list **head, list **tail, int data);
 void insert_at_first(list **head, list **tail, int data);
 void print_list(list *head);
+int compare_lists(list *head1, list *head2);
+void copy_list(list *src, list **head, list **tail);
+void delete_list(list **head, list **tail);
 
 /* Conversion */
 void convert_to_list(char *str, list **head, list **tail);
 
 /* Operations */
-int addition(list **tail1, list **tail2, list **headR, list **tailR);
+int addition(list *tail1, list *tail2, list **headR, list **tailR);
 int subtraction(list *head1, list *tail1, list *head2, list *tail2, list **headR, list **tailR);
 int multiplication(list *tail1, list *tail2, list **headR, list **tailR);
 int division(list *head1, list *tail1,list *head2, list *tail2,list **headR, list **tailR);
